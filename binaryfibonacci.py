@@ -1,3 +1,4 @@
+#Simple program which will provid the conversion and quiz engine for the project.
 from math import sqrt
 
 print "Welcome. If you need help, type 'help()'."
