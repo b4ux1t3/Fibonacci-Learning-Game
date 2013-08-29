@@ -12,7 +12,7 @@ def bin_conv(number):
     return bin(number)
 
 # Puts everything together, returning the binary notation for any nth degree.
-def all_together_now():
+def nth_fib():
     degree = int(raw_input("Which Fibonacci number would you like to see in binary?"))
     if degree > 1:
         print str(fib(degree)) + ", which is the " + str(degree) + "th Fibonacci number, would be " + str(bin_conv(fib(degree)))[2:] + " in binary notation."
@@ -20,7 +20,7 @@ def all_together_now():
 
 
 # Prints each Fibonacci number up to n.
-def range_fibs():
+def fib_in_range():
     n = int(raw_input("At which degree of Fibonacci numbers would you like to stop?"))
     li = []
     z = 0
@@ -38,6 +38,6 @@ def help():
     print "_" * 30
     print "bin_conv(n): Converts 'n' to binary. Returns non-string binary notation."
     print "_" * 30
-    print "all_together_now(): Asks for user-input. Converts user-input into Fibonacci number at that degree, then displays the binary form. Returns non-string binary notation."
+    print "nth_fib(): Asks for user-input. Converts user-input into Fibonacci number at that degree, then displays the binary form. Returns non-string binary notation."
     print "_" * 30
-    print "range_fibs(): Asks for user input. Converts all degrees of Fibonacci numbers up to and including user input. Returns list containing each non-string binary notation."
+    print "fib_in_range(): Asks for user input. Converts all degrees of Fibonacci numbers up to and including user input. Returns list containing each non-string binary notation."
