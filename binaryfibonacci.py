@@ -12,7 +12,7 @@ def bin_conv(number):
 
 # Puts everything together, returning the binary notation for any nth degree.
 def all_together_now():
-    degree = int(raw_input("Which degree of Fibonacci numbers would you like to see in binary?"))
+    degree = int(raw_input("Which Fibonacci number would you like to see in binary?"))
     if degree > 1:
         print str(fib(degree)) + ", which is the " + str(degree) + "th Fibonacci number, would be " + str(bin_conv(fib(degree)))[2:] + " in binary notation."
     return bin_conv(fib(degree))
