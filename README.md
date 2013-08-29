@@ -8,8 +8,8 @@ mathematical education, but also as a reasource for teachers. Target grade level
 eventually be GUI-based, though I'm toying with the idea of making it command-line only with ASCII art. That might
 end up being something different. (Maybe a history learning aid?)
 
-Goals:
-Quizzes-
-GUI-
-Custom art-
-Differentiated student and teacher modes
+Short-Term Goals:
+Quizzes-Differentiated student and teacher modes
+
+Long-Term Goals:
+GUI-Custom graphics
