@@ -1,0 +1,4 @@
+Feaure list brainstorming:
+  -Interactive quizzes. Random numbers between 1 and 100 are chosen, and the user will have to input that number in binary
+   in order to move on. Scoring might be involved.
+  -Bio of Fibonacci and maybe other famous mathematicians.
