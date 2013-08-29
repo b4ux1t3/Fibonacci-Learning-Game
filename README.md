@@ -9,7 +9,9 @@ eventually be GUI-based, though I'm toying with the idea of making it command-li
 end up being something different. (Maybe a history learning aid?)
 
 Short-Term Goals:
-Quizzes-Differentiated student and teacher modes
+  Quizzes
+  Differentiated student and teacher modes
 
 Long-Term Goals:
-GUI-Custom graphics
+  GUI
+  Custom graphics
