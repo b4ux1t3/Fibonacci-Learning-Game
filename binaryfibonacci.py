@@ -28,7 +28,7 @@ def fib_in_range():
     for i in range(n):
         z += 1
         print str(z) + ".", fib(z), ":", str(bin_conv(fib(z)))[2:]
-        li.append(bin_conv(fib(n)))
+        li.append(bin_conv(fib(z)))
     return li
 
 def help():
