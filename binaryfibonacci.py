@@ -1,11 +1,14 @@
 #Simple program which will provide the conversion and quiz engine for the project.
-from math import sqrt
 
 print "Welcome. If you need help, type 'help()'."
 # Establishes the Fibonnacci number at the nth degree.
 def fib(g):
-    f = int(((1.0+sqrt(5.0))**g-(1.0-sqrt(5.0))**g)/(2.0**g*sqrt(5.0)))
-    return f
+    terms = [0, 1]
+    i = 2
+    while i <= g:
+        terms.append(terms[i-1] + terms [i - 2])
+        i = i + 1
+    return terms[g]
 
 # Converts the Fibonacci (or any) number into a decimal.
 def bin_conv(number):
