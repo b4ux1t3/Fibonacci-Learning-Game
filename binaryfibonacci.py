@@ -1,4 +1,4 @@
-#Simple program which will provide the conversion and quiz engine for the project.
+# Simple program which will provide the conversion and quiz engine for the project.
 
 print "Welcome. If you need help, type 'help()'."
 # Establishes the Fibonnacci number at the nth degree.
